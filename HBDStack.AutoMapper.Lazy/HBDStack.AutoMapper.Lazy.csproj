@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <Version>$(version)</Version>
+        <Copyright>@drunkcoding.net 2020</Copyright>
+        <Description>The extensions for AutoMapper</Description>
+        <PackageLicense>https://opensource.org/licenses/MIT</PackageLicense>
+        <RepositoryUrl>https://github.com/HBDStack/HBDStack.AutoMapper.Extensions</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <Owners>Duy Hoang</Owners>
+        <PackageTags>AutoMapper, LazyMap, Extensions</PackageTags>
+        <PackageIconUrl>https://raw.githubusercontent.com/baoduy/Images/master/NugetLogo.PNG</PackageIconUrl>
+        <LangVersion>default</LangVersion>
+        <Authors>Duy Hoang</Authors>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <PackageProjectUrl>https://github.com/HBDStack/HBDStack.AutoMapper.Extensions</PackageProjectUrl>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="AutoMapper" Version="11.0.1" />
+      <PackageReference Include="HBDStack.Results" Version="6.5.1" />
+      <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="6.0.0" />
+    </ItemGroup>
+
+</Project>
